@@ -73,7 +73,11 @@ header li {
 /* Featured */
 
 #featured {
-	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 1000px;
+	flex-direction: column;
 }
 
 #featured img {
@@ -81,6 +85,23 @@ header li {
 	width: 300px;
 }
 
+#featured h2 {
+	margin-bottom: -10px;
+}
+
 #teas {
+	width: 1000px;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+
+#teas h4 {
+	margin-top: 10px;
+}
+
+.tea:last-of-type {
+	margin-left: -330px;
 }
