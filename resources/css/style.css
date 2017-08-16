@@ -7,6 +7,12 @@ body {
 	text-align: center;
 }
 
+section {
+	display:flex;
+}
+
+/* Header */
+
 a {
 	color: seashell;
 }
@@ -36,13 +42,14 @@ header li {
 	margin: 10px;
 }
 
+/* Mission */
+
 #mission {
 	margin-top: 69px;
 	height: 700px;
 	background-image: url("../images/img-mission-background.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	display: flex;
 	align-items: center;
 }
 
@@ -60,7 +67,20 @@ header li {
 }
 
 #mission h4 {
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 }
 
+/* Featured */
 
+#featured {
+	
+}
+
+#featured img {
+	height: 200px;
+	width: 300px;
+}
+
+#teas {
+	display: flex;
+}
