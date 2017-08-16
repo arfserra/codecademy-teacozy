@@ -143,3 +143,22 @@ header li {
 .location:first-of-type {
 	margin-left: 0px;
 }
+
+/* Contact */
+
+#contact {
+	display: block;
+	height: 200px;
+}
+
+#contact h2 {
+	margin-top: 10px;
+}
+
+
+/* Footer */
+
+footer {
+	padding-left: 20px;
+	text-align: left;
+}
